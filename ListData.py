@@ -1,9 +1,12 @@
 vowels = ["a", "e", "i", "o", "u", "u"]
 
+
 vowels.remove("u")
 vowels.pop(1)
+
 vowels.extend(["k", "j"])
 vowels.insert(0, "add through insert")
+
 dup_vowel = vowels.copy()
 print(dup_vowel)
 print(vowels)
@@ -19,4 +22,4 @@ if len(found) > 0:
     for i in found:
         print(i)
 else:
-    print("Not found any vowel")
+    print("Not found any vowel can not found n ")
