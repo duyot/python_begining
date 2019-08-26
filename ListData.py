@@ -1,5 +1,6 @@
 vowels = ["a", "e", "i", "o", "u", "u"]
 
+vowels.append()
 
 vowels.remove("u")
 vowels.pop(1)
@@ -23,3 +24,17 @@ if len(found) > 0:
         print(i)
 else:
     print("Not found any vowel can not found n ")
+
+
+count = int(input())
+printedArr = []
+for i in range(count):
+    item = input()
+    itemArr = item.split(" ")
+    cmd = itemArr[0]
+    args = itemArr[1:]
+    if cmd == "print":
+        print(printedArr)
+    else:
+        cmd = cmd + "(" + ",".join(args) + ")"
+        eval("printedArr." + cmd)
