@@ -7,12 +7,17 @@
 # for i in sorted(finalSet):
 #   print(i)
 
-n = int(input())
-temp = dict()
-for i in range(n):
-    inputStr = input()
-    temp.setdefault(inputStr, 0)
-    temp[inputStr] += 1
+# n = int(input())
+# temp = dict()
+# for i in range(n):
+#     inputStr = input()
+#     temp.setdefault(inputStr, 0)
+#     temp[inputStr] += 1
+#
+# print(len(temp))
+# print(*temp.values(), sep=" ")
 
-print(len(temp))
-print(*temp.values(), sep=" ")
+# for i in range(3):
+#     for j in range(3):
+#         print("#", end="")
+#     print()

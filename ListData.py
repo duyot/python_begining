@@ -1,7 +1,5 @@
 vowels = ["a", "e", "i", "o", "u", "u"]
 
-vowels.append()
-
 vowels.remove("u")
 vowels.pop(1)
 

@@ -28,6 +28,8 @@ def count_string_appear(mainStr: str, findStr):
     return count
 
 
-def wrap(string, max_width):
-
-    return
+def filterAlpha(valueInput: str):
+    for i in valueInput:
+        if not i.isalpha():
+            valueInput = valueInput.replace(i, "")
+    return valueInput
